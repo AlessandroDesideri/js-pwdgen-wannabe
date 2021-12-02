@@ -1,7 +1,4 @@
 //Prompt nome
+const userName = prompt('Inserisci il tuo nome');
+console.log(userName);
 
-//Prompt cognome
-
-//Prompt colore pref.
-
-//Print della pass
