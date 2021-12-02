@@ -13,3 +13,9 @@ console.log(prefCol);
 //Inizializzo variabile password
 let password = userName + userSurname + prefCol
 console.log = (password)
+
+
+//Richiamo 'let' password e Print della pass
+let passwordgen = document.getElementById('passwordgen');
+passwordgen.innerHTML = `La tua password è ${userName}${userSurname}${prefCol}`;
+console.log = (passwordgen);
