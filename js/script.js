@@ -10,3 +10,6 @@ console.log(userSurname);
 const prefCol = prompt('Inserisci il tuo colore preferito');
 console.log(prefCol);
 
+//Inizializzo variabile password
+let password = userName + userSurname + prefCol
+console.log = (password)
