@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: gold;
+    text-shadow: 5px 5px black;
+}
+
+.christmas-box{
+    height: 500px;
+    padding: 30px;
+    border: 5px black solid;
+    background: url("../img/SfondoNatale.jpg") no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-size: 100px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#christmasCountodown{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 100px;
+}
+
+#dataNatale{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 700;
+}
